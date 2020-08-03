@@ -1,0 +1,19 @@
+package my.hello.day1;
+
+import java.util.Scanner;
+
+public class Array2 {
+    //求数组中所有数据的和。
+
+    public static void main(String[] args) {
+        System.out.println("请输入数值:");
+        int[] array = new int[10];
+        int one = array[0];
+        int sum = 0;
+        for(int i=0;i<array.length;i++){
+            array[i] = new Scanner(System.in).nextInt();
+            sum += array[i];
+        }
+        System.out.println("所有数据的和为:"+sum);
+    }
+}
