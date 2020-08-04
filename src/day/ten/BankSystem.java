@@ -2,8 +2,6 @@ package day.ten;
 
 import java.util.Scanner;
 
-import com.hw.transfersys.domain.Account;
-
 /**
 转帐
 1. 面向对象分析：找出转帐这个功能所有对象

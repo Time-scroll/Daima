@@ -2,8 +2,6 @@ package day.ten;
 
 import java.util.Scanner;
 
-import com.hw.empmgrsys.entity.Employee;
-
 public class EmpMgr {
 	static Scanner s=new Scanner(System.in);
 	static Employee[] emps=new Employee[2];
