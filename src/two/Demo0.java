@@ -1,6 +1,8 @@
 package two;
 
 public class Demo0 {
+    //求1到1000的和
+
     public static void main(String[] args) {
         int a=0;
         int sum = 0;

@@ -1,8 +1,6 @@
 package two;
 
-import java.sql.SQLOutput;
-
-public class digui {
+public class Demo2 {
     public static void main(String[] args) {
         System.out.println("公众号：Java3y：" + sum(100));
     }
