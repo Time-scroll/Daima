@@ -57,7 +57,7 @@ public class RegexChk {
     }
 
     /**
-     * 手机号码验证,11位，不知道详细的手机号码段，只是验证开头必须是1和位数
+     * 手机号码哈哈,11位，不知道详细的手机号码段，只是验证开头必须是1和位数
      */
     public boolean checkCellPhone(String cellPhoneNr) {
         String reg = "^[1][\\d]{10}";
